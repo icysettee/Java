@@ -20,9 +20,9 @@ public class Quiz {
         for(int i = 0; i<que.length; i++){
             System.out.println(que[i]);
         
-                for (int k = 0; k<option[i].length; k++){
+                for (String mcq : option[i]){
                     
-                        System.out.println(option[i][k]);                        
+                        System.out.println(mcq);                        
                 }
             guess = sc.nextInt();
                         
